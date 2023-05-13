@@ -19,10 +19,14 @@
   margin-bottom: 0px;
   justify-content: space-between;
 }
+.header-link {
+  display: contents;
+}
 .header-logo {
   width: 100px;
   object-fit: cover;
   margin-left: 0px;
+  text-decoration: none;
 }
 .header-container1 {
   display: flex;
@@ -30,18 +34,42 @@
   margin-right: 0px;
   justify-content: space-between;
 }
-.header-text {
+.header-navlink {
   align-self: center;
   font-style: normal;
   text-align: left;
   transition: 0.3s;
   font-weight: 600;
   margin-left: 0px;
+  text-decoration: none;
 }
-.header-text:hover {
+.header-navlink:hover {
   color: rgba(0, 0, 0, 0.65);
   font-style: normal;
   font-weight: 600;
+}
+.header-navlink1 {
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  transition: 0.3s;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.header-navlink1:hover {
+  color: rgba(0, 0, 0, 0.63);
+}
+.header-text {
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  transition: 0.3s;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+}
+.header-text:hover {
+  color: rgba(0, 0, 0, 0.67);
 }
 .header-text1 {
   align-self: center;
@@ -52,39 +80,18 @@
   margin-left: var(--dl-space-space-twounits);
 }
 .header-text1:hover {
-  color: rgba(0, 0, 0, 0.63);
-}
-.header-text2 {
-  align-self: center;
-  font-style: normal;
-  text-align: left;
-  transition: 0.3s;
-  font-weight: 600;
-  margin-left: var(--dl-space-space-twounits);
-}
-.header-text2:hover {
-  color: rgba(0, 0, 0, 0.67);
-}
-.header-text3 {
-  align-self: center;
-  font-style: normal;
-  text-align: left;
-  transition: 0.3s;
-  font-weight: 600;
-  margin-left: var(--dl-space-space-twounits);
-}
-.header-text3:hover {
   color: rgba(0, 0, 0, 0.66);
 }
-.header-text4 {
+.header-navlink2 {
   align-self: center;
   font-style: normal;
   text-align: left;
   transition: 0.3s;
   font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
-.header-text4:hover {
+.header-navlink2:hover {
   color: rgba(0, 0, 0, 0.7);
 }
 .header-container2 {
