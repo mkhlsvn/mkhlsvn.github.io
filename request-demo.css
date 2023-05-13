@@ -276,7 +276,7 @@
   height: 50px;
   margin-top: var(--dl-space-space-twounits);
 }
-.request-demo-button {
+.request-demo-link {
   color: rgb(0, 0, 0);
   margin-top: var(--dl-space-space-twounits);
   transition: 0.3s;
@@ -285,12 +285,13 @@
   padding-left: var(--dl-space-space-oneandhalfunits);
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
   background-color: var(--dl-color-primary-100);
 }
-.request-demo-button:hover {
+.request-demo-link:hover {
   background-color: #ffdf6d;
 }
-.request-demo-button:active {
+.request-demo-link:active {
   background-color: #ffbe00;
 }
 .request-demo-container5 {
@@ -305,7 +306,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.request-demo-button1 {
+.request-demo-button {
   color: rgb(0, 0, 0);
   padding: var(--dl-space-space-unit);
   margin-top: var(--dl-space-space-twounits);
@@ -317,10 +318,10 @@
   padding-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-primary-100);
 }
-.request-demo-button1:hover {
+.request-demo-button:hover {
   background-color: #ffdf6d;
 }
-.request-demo-button1:active {
+.request-demo-button:active {
   background-color: #ffbe00;
 }
 .request-demo-text02 {
@@ -332,7 +333,7 @@
 .request-demo-text02:active {
   background-color: #ffbe00;
 }
-.request-demo-button2 {
+.request-demo-button1 {
   color: rgb(0, 0, 0);
   padding: var(--dl-space-space-unit);
   margin-top: var(--dl-space-space-twounits);
@@ -345,10 +346,10 @@
   padding-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-gray-white);
 }
-.request-demo-button2:hover {
+.request-demo-button1:hover {
   background-color: #ffdf6d;
 }
-.request-demo-button2:active {
+.request-demo-button1:active {
   background-color: #ffbe00;
 }
 .request-demo-text04 {
