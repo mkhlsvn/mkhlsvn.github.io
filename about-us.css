@@ -254,22 +254,15 @@
 }
 .about-us-text {
   color: rgb(255, 255, 255);
-  width: 410px;
-  height: 212px;
-  font-size: 100px;
-  align-self: flex-start;
+  width: 445px;
+  height: 211px;
+  font-size: 80px;
+  align-self: center;
+  text-align: left;
   font-family: Sofia Sans Extra Condensed;
   line-height: 0.9;
   margin-left: var(--dl-space-space-unit);
-}
-.about-us-text01 {
-  font-size: 80px;
-}
-.about-us-text02 {
-  font-size: 80px;
-}
-.about-us-text03 {
-  font-size: 80px;
+  text-transform: uppercase;
 }
 .about-us-container4 {
   flex: 0 0 auto;
@@ -293,7 +286,7 @@
   padding-right: var(--dl-space-space-threeunits);
   justify-content: center;
 }
-.about-us-text05 {
+.about-us-text06 {
   line-height: 1.5;
 }
 .about-us-container6 {
@@ -316,7 +309,7 @@
   padding-bottom: 0px;
   justify-content: center;
 }
-.about-us-text06 {
+.about-us-text07 {
   color: var(--dl-color-primary-100);
   font-size: 60px;
   font-family: Sofia Sans Extra Condensed;
@@ -339,14 +332,57 @@
   padding-right: var(--dl-space-space-threeunits);
   justify-content: center;
 }
-.about-us-text07 {
+.about-us-text08 {
   line-height: 1.5;
 }
 @media(max-width: 991px) {
+  .about-us-text {
+    height: 212px;
+    align-self: flex-start;
+  }
   .about-us-container4 {
     width: 100%;
   }
   .about-us-container5 {
     width: 1200%;
+  }
+}
+@media(max-width: 767px) {
+  .about-us-container2 {
+    width: 100%;
+  }
+  .about-us-text {
+    height: 211px;
+    align-self: center;
+  }
+}
+@media(max-width: 479px) {
+  .about-us-container2 {
+    width: 100%;
+  }
+  .about-us-image {
+    width: 167px;
+    height: 152px;
+  }
+  .about-us-text {
+    color: rgb(255, 255, 255);
+    width: 220px;
+    height: 213px;
+    font-size: 60px;
+    align-self: center;
+    font-family: Sofia Sans Extra Condensed;
+    line-height: 0.9;
+    text-transform: uppercase;
+  }
+  .about-us-container5 {
+    height: 148px;
+    padding-top: 0px;
+  }
+  .about-us-text06 {
+    align-self: flex-end;
+    margin-top: 0px;
+  }
+  .about-us-text07 {
+    margin-top: var(--dl-space-space-threeunits);
   }
 }
