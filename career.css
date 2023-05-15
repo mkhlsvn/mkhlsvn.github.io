@@ -405,7 +405,7 @@
   align-items: center;
   padding-left: 0px;
   padding-right: 0px;
-  justify-content: center;
+  justify-content: left;
 }
 .career-text08 {
   font-style: normal;
@@ -436,7 +436,7 @@
   height: auto;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: left;
 }
 .career-container08 {
   width: 100%;
@@ -447,7 +447,7 @@
   margin-bottom: 0px;
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
 }
 .career-text13 {
   font-size: 24px;
