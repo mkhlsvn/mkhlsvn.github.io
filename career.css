@@ -399,13 +399,14 @@
   padding-left: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-threeunits);
+  justify-content: center;
 }
 .career-container05 {
   display: flex;
   align-items: center;
   padding-left: 0px;
   padding-right: 0px;
-  justify-content: left;
+  justify-content: center;
 }
 .career-text08 {
   font-style: normal;
@@ -423,6 +424,7 @@
   align-items: flex-start;
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
+  justify-content: center;
 }
 .career-text12 {
   color: var(--dl-color-primary-100);
@@ -436,7 +438,7 @@
   height: auto;
   display: flex;
   align-items: flex-start;
-  justify-content: left;
+  justify-content: center;
 }
 .career-container08 {
   width: 100%;
@@ -447,7 +449,7 @@
   margin-bottom: 0px;
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  justify-content: left;
+  justify-content: center;
 }
 .career-text13 {
   font-size: 24px;
@@ -508,6 +510,7 @@
   display: flex;
   margin-top: var(--dl-space-space-threeunits);
   align-items: flex-start;
+  justify-content: center;
 }
 .career-text54 {
   color: var(--dl-color-primary-100);
